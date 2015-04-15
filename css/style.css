@@ -82,3 +82,18 @@ html {
 .bigblock.double{
     width: 306px;
 }
+
+.jumptop span{
+    padding: 3px 0;
+    width: 146px;
+    margin: 2px;
+    cursor: pointer;
+    float: left;
+    background: #2b60a0;
+    text-align: center;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.jumptop span a{
+    color: #fff;
+}
