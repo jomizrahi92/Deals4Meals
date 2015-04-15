@@ -1,0 +1,12 @@
+/* main*/
+html {
+    background-color: #1E1E1E;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
