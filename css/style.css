@@ -80,6 +80,16 @@ html {
     border: 1px solid #fff;
 }
 
+.table>tbody+tbody {
+    border: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    width: 100%;
+}
+
+.cart{
+    padding-left: 15px;
+}
 .jumptop span{
     padding: 3px 0;
     width: 146px;
@@ -96,15 +106,6 @@ html {
 }
 .jumptop .row{
     margin: 0;
-}
-.table>tbody+tbody {
-    border: none;
-}
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
-    width: 100%;
-}
-.cart{
-    padding-left: 15px;
 }
 @media (max-width: 992px) {
     .cart{
