@@ -9,13 +9,11 @@ html {
 
 .row {
     margin: 0;
+    margin-top: 20px;
 }
 .container {
     padding-right: 50px;
     padding-left: 50px;
-}
-.row {
-    margin-top: 20px;
 }
 .removepadding {
     padding: 0;
@@ -96,9 +94,22 @@ html {
 .jumptop span a{
     color: #fff;
 }
+.jumptop .row{
+    margin: 0;
+}
+.table>tbody+tbody {
+    border: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    width: 100%;
+}
+.cart{
+    padding-left: 15px;
+}
 
 /*footer*/
 footer{
+    margin-top: 25px;
     background-color: #0e3768;
     color: #fff;
     text-align: center;
