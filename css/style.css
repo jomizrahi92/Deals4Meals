@@ -64,7 +64,7 @@ html {
     background: #02a1e3;
     float: left;
     text-align: center;
-    border-right: 1px solid #fff;
+    border: 1px solid #fff;
     width: 100%;
 }
 .block p {
@@ -77,7 +77,7 @@ html {
     cursor: pointer;
     background: #2b61a1;
     text-align: center;
-    border-right: 2px solid #fff;
+    border: 1px solid #fff;
 }
 
 .jumptop span{
