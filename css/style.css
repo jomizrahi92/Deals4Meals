@@ -57,7 +57,7 @@ html {
     }
 }
 
-/*header*/
+/*inside*/
 .block {
     height: 62px;
     background: #02a1e3;
@@ -96,4 +96,12 @@ html {
 }
 .jumptop span a{
     color: #fff;
+}
+
+/*footer*/
+footer{
+    background-color: #0e3768;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
 }
