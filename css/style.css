@@ -106,12 +106,12 @@ html {
 .cart{
     padding-left: 15px;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .cart{
         text-align: center;
     }
     .jumptop .row{
-        width: 146px;
+        width: 300px;
         margin: auto;
     }
 }
