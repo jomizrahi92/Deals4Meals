@@ -17,6 +17,9 @@ html {
 .row {
     margin-top: 20px;
 }
+.removepadding {
+    padding: 0;
+}
 
 /*nav*/
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -64,23 +67,19 @@ html {
     float: left;
     text-align: center;
     border-right: 1px solid #fff;
-    width: 100px;
+    width: 100%;
 }
 .block p {
     margin: 7px 0 7px;
 }
 .bigblock{
-    width: 159px;
+    width: 100%;
     height: 57px;
     float: left;
     cursor: pointer;
     background: #2b61a1;
     text-align: center;
     border-right: 2px solid #fff;
-}
-
-.bigblock.double{
-    width: 306px;
 }
 
 .jumptop span{
