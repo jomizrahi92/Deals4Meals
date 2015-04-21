@@ -1,2 +1,2 @@
-This is a webpage mockup created for Deals4Meals.
+This is a webpage mockup for a responsive design.
 This consists of HTML and CSS.
